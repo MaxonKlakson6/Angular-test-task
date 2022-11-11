@@ -1,0 +1,12 @@
+<table class="table text-center">
+  <thead class="table-heading">
+    <th scope="col" class="worker-name">Name</th>
+    <th scope="col" class="worker-phone">Phone</th>
+  </thead>
+    <tbody>
+      <tr *ngFor="let worker of workers">
+        <th scope="row" class="workers-item worker-name">{{worker.name}}</th>
+        <th scope="row" class="workers-item worker-phone">{{worker.phone}}</th>
+      </tr>
+    </tbody>
+</table>
